@@ -33,27 +33,6 @@ Both models are built from PyTorch primitives (`nn.Conv2d`, `nn.BatchNorm2d`, et
 
 - **YOLO** — single-stage detector with backbone + FPN/PAN neck + multi-scale detection head
 - **Faster R-CNN** — two-stage detector with ResNet-50 backbone + FPN + RPN + ROI Align + detection head
-
-## Repo Structure
-
-```
-EE3703_Project/
-├── Training Images/
-│   ├── Kaggle Images/          # 200 images from Kaggle RPC (3 classes)
-│   │   ├── images/             # 640x640 resized JPEGs
-│   │   └── annotations.json   # COCO-format annotations
-│   ├── MV Images/              # 200 images from MVTec D2S
-│   └── Self Images/            # Original captured images (all 3 members)
-│       ├── annotated_resized_Girvin-images/
-│       ├── annotated_resized_Naveen-images/
-│       └── stanley_dataset/
-├── Kaggle RPC stuff/           # Data processing scripts and working files
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_subsample_kaggle_rpc.py
-│   ├── 03_preprocess_kaggle_rpc.py
-│   └── PROJECT_CHECKLIST.md
-├── README.md
-└── .gitignore
 ```
 
 ## Evaluation Metrics

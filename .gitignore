@@ -23,3 +23,6 @@ PROJECT_CHECKLIST.md
 
 # D2S subset lives in MV Images, not Self Images
 Training Images/Self Images/stanley_dataset/coco_output_250/
+
+det_dataset/
+runs/

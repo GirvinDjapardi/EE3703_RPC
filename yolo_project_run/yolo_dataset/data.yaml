@@ -1,0 +1,6 @@
+path: /content/EE3703 RPC/runs/yolo/yolo_project_run/yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names: ['Bottled_Drink', 'Canned_Goods', 'Fresh_Produce', 'Packaged_Food']

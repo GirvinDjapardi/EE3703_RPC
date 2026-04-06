@@ -1,0 +1,2013 @@
+{
+  "seed": 42,
+  "val_fraction": 0.15,
+  "val_self_images": 16,
+  "min_train_self_images": 50,
+  "image_size": 640,
+  "train": [
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211848.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_005601_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180920-14-30-57-1406.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013329_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1828_JPG.rf.imGwdgmNv1pVUnqJbRRE.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-11-14-21-596.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-09-51-12-1466.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180920-14-31-12-1406.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010310_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181018-10-21-10-2316.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022620_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-10-31-03-2121.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180824-15-59-26-486.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1691_JPG.rf.yZYkQETKzxeiZ5VpVykH.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_033208_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010401_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180920-16-09-22-1431.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_012908_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180829-10-45-27-1246.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-14-32-47-2006.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-09-45-18-1861.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9687_jpg.rf.R3kUlLUmHB7sqjj2GYe8.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_018800_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-16-27-51-996.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013801_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008117_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1831_JPG.rf.70rWqnb8tbWZlCMefhW2.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-50-04-326.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006100_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-09-45-10-1861.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-15-05-36-2821.jpg"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.20.jpeg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-16-53-44-2896.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214039.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010317_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180912-15-36-57-431.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180824-15-59-34-486.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-39-21-316.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-13-21-47-2581.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022300_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010410_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-14-12-02-2151.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_007908_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-17-09-20-2151.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1664_JPG.rf.Ox5wC0YUZzjqYe9kVLuS.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211837.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-15-53-52-2226.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_000709_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1843_JPG.rf.REnLMWgzspVljQpS6X88.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009408_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010407_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-11-06-48-661.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1817_JPG.rf.K8B9T8gWyIjXsX2QywV3.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_007612_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-15-05-19-2651.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1845_JPG.rf.qSaI6y7q5vVcuTurHhbK.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006917_D2S_training.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9694_jpg.rf.Cm3yRc4OfrVtkDvaKKOs.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010313_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180927-14-58-24-2006.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013321_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180824-15-59-15-486.jpg"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.11.jpeg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010413_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_018806_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006300_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-11-07-02-661.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1847_JPG.rf.Ecn1PsG9L6Ds45aP6wPk.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013301_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_000900_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-14-55-59-2016.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180904-16-49-33-3286.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010300_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1825_JPG.rf.yGBgZrmTeGIQ6ROXnjSM.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_007309_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-10-35-02-801.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-10-31-26-2121.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-15-05-11-2651.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006803_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9699_1_jpg.rf.DUuv9gYsMAyIr0WL6KT5.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9696_jpg.rf.GoB6rLMMysKAwd8xGYGM.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1834_JPG.rf.jUwZ6BfRKw2yGLD3QErX.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181012-13-22-46-3311.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009401_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010303_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022600_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180928-10-41-36-2266.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010419_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010403_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181018-16-13-01-2601.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-13-54-15-3211.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181019-16-08-10-2776.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181018-16-10-47-2601.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180930-14-56-37-2491.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180929-09-33-21-2341.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180904-13-41-44-3211.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010400_D2S_training_rot0_light0.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1821_JPG.rf.7hmUXwu2HgdsQEojobTk.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-15-21-43-2236.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1850_JPG.rf.sICK4B1PvPHHUQjXvHzF.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180914-11-04-17-681.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180904-16-49-43-3286.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181010-15-01-59-3141.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009408_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010407_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180920-14-31-27-1406.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-09-30-32-2086.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-17-17-02-341.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-17-16-48-341.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1838_JPG.rf.9jJPDb22PkajIsMoQ2y2.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_000724_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013324_D2S_training.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_213933.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9698_jpg.rf.eOXDyCFls4D200obGUBv.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006110_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-09-45-26-1861.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-44-52-321.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_018805_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_011008_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-09-29-32-2516.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180912-15-36-22-431.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-17-12-57-2061.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181019-16-08-23-2776.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-13-21-39-2581.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180913-16-02-01-546.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1836_JPG.rf.Fit3EZHLZe1TcCIRdHnx.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013802_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1827_JPG.rf.WSLmS07WN3GWO7G2r8GN.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-15-05-25-2821.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180905-10-11-47-3331.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001413_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-15-06-01-2821.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_005200_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009400_D2S_training_rot0_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010400_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009309_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-11-14-48-2361.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_005812_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-11-14-54-2361.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180829-10-45-04-1246.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181025-14-19-07-136.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-10-27-27-801.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_012901_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9686_jpg.rf.vslGdg6NpoScJLWPFCS7.jpg"
+    },
+    {
+      "source": "self_naveen_bg",
+      "file_name": "IMG_1683_JPG.rf.XV21B6I8q6ke2vZ42p4w.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-44-42-321.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-10-27-26-801.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-13-21-58-2581.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_020322_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-16-52-09-2056.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1671_JPG.rf.yuRrhG4aKYCc6YxAH6zJ.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_007313_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1513_JPG.rf.mWC8K0PIpyYdr3mi9udu.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006108_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-09-30-24-2086.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1560_JPG.rf.jphi6eqy7qqP8CVao9XA.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-11-14-59-2361.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_011301_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211805.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-17-16-36-341.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180913-16-01-51-546.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013304_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_019519_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-09-58-55-561.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001810_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1518_JPG.rf.uymxB2lFjVVRuO4f5Fvg.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180905-10-11-31-3331.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180930-14-56-25-2491.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180824-17-14-50-536.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-16-52-00-2056.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013308_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181018-10-20-51-2316.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-13-44-25-1136.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-14-15-03-221.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010410_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_005907_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-09-30-49-2086.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001400_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-39-28-316.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010406_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-14-56-20-2016.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001720_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-09-29-39-2516.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180912-15-36-43-431.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180914-11-04-05-681.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180914-11-03-52-681.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010302_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1837_JPG.rf.Duxup0FFGmOFYggYfxeY.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-09-58-43-561.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-13-44-14-1136.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180925-10-33-14-1381.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001227_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_011405_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022603_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013305_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013323_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009405_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013803_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009300_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-49-55-326.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9691_1_jpg.rf.B3hLfOIOC9EO4VnwcI00.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-39-13-316.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010405_D2S_training.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211753.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008800_D2S_training_rot0_light0.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9682_jpg.rf.xPi5RbL2Eg99ekD1J2sp.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_033106_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1832_JPG.rf.KcFA4uC8zBjR3SKPZ0Xc.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_005210_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-13-54-01-3211.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_012406_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010306_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214235.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1676 2_JPG.rf.w15FA7YWLWthRJ3IdKlS.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_033103_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-14-51-28-3226.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-16-13-49-2256.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_018822_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-13-33-15-631.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008708_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-16-13-31-2256.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-13-32-58-631.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-09-29-23-2516.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-09-51-35-1466.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009403_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_007000_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180905-10-11-55-3331.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_019509_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_005200_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-13-40-18-2181.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214027.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_000928_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010400_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-16-27-19-996.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006905_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-09-16-15-2066.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-16-21-36-1266.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_005708_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-14-14-45-221.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013309_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1676_JPG.rf.cq4Ab0oLSTZjgabtlb9l.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_033206_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-16-52-20-2056.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_018825_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-50-16-326.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-10-35-14-801.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-16-44-32-321.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013303_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013000_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_033101_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181019-11-31-33-2701.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010305_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-13-40-30-2181.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001809_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1830_JPG.rf.fSs10RUZcIXrhPvhLkYB.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211825.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181019-11-31-48-2701.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-16-53-52-2896.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181010-15-02-22-3141.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_011300_D2S_training_rot0_light0.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214045.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_019500_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_007319_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180824-17-14-41-536.jpg"
+    },
+    {
+      "source": "self_naveen_bg",
+      "file_name": "IMG_1696_JPG.rf.yQw89EqrLh0efsfXmD0t.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008801_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006308_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-10-03-51-2106.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013003_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-17-13-37-2061.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181012-13-23-05-3311.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_033110_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-16-27-26-996.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180829-10-45-12-1246.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-10-03-43-2106.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-13-54-32-3211.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008100_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_012300_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008000_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001702_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013809_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-15-53-58-2226.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1823_JPG.rf.oHVyBpp42h6a35scp3jW.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-10-35-25-801.jpg"
+    },
+    {
+      "source": "self_naveen_bg",
+      "file_name": "IMG_1511_JPG.rf.Agja305hrGyuFfis1a8l.JPG"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.27.jpeg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013320_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-14-11-24-2151.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9684_jpg.rf.aCnB78HxszKwHvgIBe6s.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-10-27-49-136.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010311_D2S_training.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9681_jpg.rf.1hHhRbzB4NcB69AomUra.jpg"
+    },
+    {
+      "source": "self_naveen_bg",
+      "file_name": "IMG_1695_JPG.rf.KNgEpzL1LOt6jpHeLEkJ.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-13-44-39-1136.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-16-51-28-856.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211711.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-09-59-09-561.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181018-16-12-48-2601.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-16-51-43-856.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009307_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013827_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180930-14-56-47-2491.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-14-29-49-676.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_020106_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010307_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180921-10-37-52-1466.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1682_JPG.rf.62etf7wMpyvrjS44p2OQ.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-14-51-15-3226.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008108_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180920-16-09-32-1431.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-14-51-56-3226.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_033127_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-11-14-09-596.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-10-27-25-801.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013305_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008013_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1840_JPG.rf.ECXFTwmmEIyFJCX3dEqE.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-15-21-51-2236.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1824_JPG.rf.Vtbs6aX6WSgeeaLFfPHS.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-13-37-32-876.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-14-32-32-2006.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1562_JPG.rf.LB17wG3aOfCoSrHhAGzf.JPG"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1848_JPG.rf.EyTkEas6JYf5h5UmfZrj.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022327_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1681_JPG.rf.qdyPchHsRB89whIaUDzT.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013309_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181019-11-05-09-2401.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1814_JPG.rf.mfOeV3maV9uDr4reEwNm.JPG"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1826_JPG.rf.UHVAFwbRhos7qzWKOkgu.JPG"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9690_jpg.rf.51n56aYhkeg8YyZcP3A5.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-16-13-39-2256.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-13-40-40-2181.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214210.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180829-10-19-37-1226.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-11-14-35-596.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022304_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1810_JPG.rf.RLHVfbmuNgSt1miDsWWr.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001211_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022603_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181019-11-32-00-2701.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1841_JPG.rf.ZvzCqGIOpRqNuQPjJo9r.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-15-21-59-2236.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022305_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180928-10-42-05-2266.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181025-14-18-57-136.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180829-10-19-46-1226.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-09-16-37-2066.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1663_JPG.rf.sfkjPYLIyDQv1dwizasb.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_033119_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-17-13-09-2061.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-14-55-44-2016.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181019-11-05-28-2401.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022629_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180925-10-33-02-1381.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-14-14-53-221.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1815_JPG.rf.RkecUFrvfV7Hn5dHFw55.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009404_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013300_D2S_training_rot0_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009404_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_009300_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1813_JPG.rf.bBpyBZSCYSm8eHJoCHk3.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001709_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181018-10-21-00-2316.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1512_JPG.rf.OaY6kiB2bMTbpbYx7OZv.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013325_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_007318_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180928-10-40-59-2266.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1839_JPG.rf.Y7V9qOdaDDadtQpPYZXR.JPG"
+    },
+    {
+      "source": "self_naveen_bg",
+      "file_name": "IMG_1684_JPG.rf.9cJ2Vu103KvG4vUxbMMP.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180903-15-04-28-2651.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_001224_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010411_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1670_JPG.rf.XNFvhedL1PeRrYCSbrpU.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-10-30-43-2121.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1816_JPG.rf.clxXl4Zp5fEXEVkQStnR.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181012-13-23-18-3311.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181017-09-16-26-2066.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-16-51-18-856.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180920-16-08-52-1431.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_020122_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181019-16-07-53-2776.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1517_JPG.rf.aP45MoDWupmuOc9A0PuO.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180921-10-36-32-1466.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180904-13-41-37-3211.jpg"
+    }
+  ],
+  "val": [
+    {
+      "source": "kaggle",
+      "file_name": "20181019-11-04-55-2401.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1851_JPG.rf.bgbDpojZnNDs7btmh6pG.JPG"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1844_JPG.rf.fAnhGfJyhl2zuQb77DuE.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010416_D2S_training.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_213922.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181010-15-02-09-3141.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214226.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180927-14-59-15-2006.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_007900_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1519_JPG.rf.pewRWj0opaSXnl6uLsQp.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010310_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181025-14-18-40-136.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010309_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_011301_D2S_training.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1846_JPG.rf.UiebnoArmcD2lCVsYc0p.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010414_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006502_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013804_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-13-33-05-631.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180929-09-33-43-2341.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010404_D2S_training_light0.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9697_jpg.rf.hr5cn3EJwPW3nWfLgnEa.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180929-09-33-05-2341.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010402_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010408_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-15-54-06-2226.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1842_JPG.rf.s2hQ2BIcyCH1efjzvlgB.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_013304_D2S_training_light0.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_022312_D2S_training.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214115.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181016-14-33-07-2006.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-13-37-42-876.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-16-53-39-2896.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180904-16-49-24-3286.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-16-21-14-1266.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1829_JPG.rf.wOXkwpA84qV4AzSawGLr.JPG"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1812_JPG.rf.u2AjIygvogF2vgTvADVd.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180828-13-37-20-876.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010300_D2S_training_rot0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180831-10-03-35-2106.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180830-09-51-23-1466.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010406_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-14-29-44-676.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180925-10-33-27-1381.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1822_JPG.rf.FMxgkvEwXr9mPliGR3af.JPG"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180829-10-19-28-1226.jpg"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.14.jpeg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180904-13-41-20-3211.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20181011-16-21-22-1266.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_006913_D2S_training.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214101.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180824-17-14-33-536.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180913-16-02-11-546.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_008801_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-10-27-31-136.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010308_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-14-29-38-676.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9689_jpg.rf.cRQKbaToonMKMNXu0nyA.jpg"
+    },
+    {
+      "source": "self_naveen_add_data",
+      "file_name": "IMG_1849_JPG.rf.UweOoDc9Rye73GxXMWIr.JPG"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_000718_D2S_training.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180907-11-06-25-661.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_005608_D2S_training_light0.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180927-14-58-53-2006.jpg"
+    },
+    {
+      "source": "kaggle",
+      "file_name": "20180827-10-27-18-136.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010308_D2S_training.jpg"
+    },
+    {
+      "source": "mv",
+      "file_name": "D2S_010319_D2S_training.jpg"
+    }
+  ],
+  "test": [
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214032.jpg"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.16.jpeg"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.22.jpeg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9700_jpg.rf.MojuwRZH3wmrMpBw1Df6.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9693_jpg.rf.2Mix6mgh0qDHI5QZw4rI.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211748.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9701_jpg.rf.eLhSyr9TWVX4AjGlUvcY.jpg"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.18.jpeg"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.25.jpeg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9680_jpg.rf.Qj97J8ApkCCzzNS7qNeP.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1665_JPG.rf.hK32B9UVEFd9JpOSDAKv.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211831.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1561_JPG.rf.fmYldHrsDsztu8nAnwJS.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214122.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211704.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1686_JPG.rf.0nvUB2XBRkopkxHGN3wp.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1692_JPG.rf.o9SBBPaMWHyMCOLm4w3M.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211810.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "photo_2026-03-15 09.59.20.jpeg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211741.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214220.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9685_1_jpg.rf.Npf3kUGAjHwDxXwnoYFY.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1690_JPG.rf.MwMl3vjwxfBVwCGOECVz.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211842.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_213914.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1689_JPG.rf.XuSq5XYMTKPrgx22pv5V.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1668_JPG.rf.UZuP0W5g9I8dJdyL15SZ.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1666_JPG.rf.VwWwRd3G2QNNia6NonRm.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "photo_2026-03-15 09.59.17.jpeg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_214017.jpg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9688_jpg.rf.HwqcroAMTxEGtH9xlREs.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1559_JPG.rf.FudFYFb9baVBGhztjIdW.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1662_JPG.rf.qaVQlitav34ZoYSaVLIT.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1514_JPG.rf.SJ7OM4wvv9jCKVvVpybx.JPG"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9683_jpg.rf.xKP659u3ZgU6rJshzbVj.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211853.jpg"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211801.jpg"
+    },
+    {
+      "source": "self_stanley_add",
+      "file_name": "photo_2026-03-26 23.11.09.jpeg"
+    },
+    {
+      "source": "self_girvin",
+      "file_name": "IMG_9695_jpg.rf.Da91ylYvyuWHoZiiCafu.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1693_JPG.rf.CdGOz2kImMZqbBWYlwaz.JPG"
+    },
+    {
+      "source": "self_stanley_orig",
+      "file_name": "20260309_211901.jpg"
+    },
+    {
+      "source": "self_naveen",
+      "file_name": "IMG_1688_JPG.rf.ZbEA9C00tkUgHe3F54LO.JPG"
+    }
+  ]
+}

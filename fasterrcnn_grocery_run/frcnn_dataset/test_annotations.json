@@ -1,0 +1,1513 @@
+[
+  {
+    "image_id": "self_stanley_orig/20260309_214032.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_214032.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_214032.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        219.0,
+        124.0,
+        489.0,
+        486.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink"
+    ]
+  },
+  {
+    "image_id": "self_stanley_add/photo_2026-03-26 23.11.16.jpeg",
+    "source": "self_stanley_add",
+    "file_name": "photo_2026-03-26 23.11.16.jpeg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_add__photo_2026-03-26 23.11.16.jpeg.jpeg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        60.0,
+        81.0,
+        506.0,
+        332.0
+      ],
+      [
+        140.0,
+        425.0,
+        456.0,
+        567.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_stanley_add/photo_2026-03-26 23.11.22.jpeg",
+    "source": "self_stanley_add",
+    "file_name": "photo_2026-03-26 23.11.22.jpeg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_add__photo_2026-03-26 23.11.22.jpeg.jpeg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        87.0,
+        184.0,
+        184.0,
+        487.0
+      ],
+      [
+        179.0,
+        12.0,
+        279.0,
+        240.0
+      ],
+      [
+        209.0,
+        202.0,
+        592.0,
+        578.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Canned Goods",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_girvin/IMG_9700_jpg.rf.MojuwRZH3wmrMpBw1Df6.jpg",
+    "source": "self_girvin",
+    "file_name": "IMG_9700_jpg.rf.MojuwRZH3wmrMpBw1Df6.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_girvin__IMG_9700_jpg.rf.MojuwRZH3wmrMpBw1Df6.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        279.0,
+        41.0,
+        381.92,
+        275.89
+      ],
+      [
+        70.0,
+        261.0,
+        187.76,
+        610.49
+      ],
+      [
+        468.0,
+        354.0,
+        584.71,
+        549.02
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Bottled Drink",
+      "Bottled Drink"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        84.0,
+        97.0,
+        508.78,
+        589.47
+      ]
+    ],
+    "labels": [
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        41.0,
+        211.0,
+        385.54,
+        610.0
+      ],
+      [
+        119.0,
+        141.0,
+        346.82,
+        241.6
+      ],
+      [
+        435.0,
+        295.0,
+        598.84,
+        517.19
+      ],
+      [
+        346.0,
+        5.0,
+        494.65999999999997,
+        276.44
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_girvin/IMG_9693_jpg.rf.2Mix6mgh0qDHI5QZw4rI.jpg",
+    "source": "self_girvin",
+    "file_name": "IMG_9693_jpg.rf.2Mix6mgh0qDHI5QZw4rI.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_girvin__IMG_9693_jpg.rf.2Mix6mgh0qDHI5QZw4rI.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        86.0,
+        235.0,
+        204.81,
+        440.84000000000003
+      ],
+      [
+        412.0,
+        284.0,
+        586.47,
+        472.3
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211748.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211748.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211748.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        354.0,
+        172.0,
+        469.0,
+        549.0
+      ],
+      [
+        189.0,
+        209.0,
+        306.0,
+        487.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_girvin/IMG_9701_jpg.rf.eLhSyr9TWVX4AjGlUvcY.jpg",
+    "source": "self_girvin",
+    "file_name": "IMG_9701_jpg.rf.eLhSyr9TWVX4AjGlUvcY.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_girvin__IMG_9701_jpg.rf.eLhSyr9TWVX4AjGlUvcY.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        20.0,
+        64.0,
+        205.86,
+        248.58
+      ],
+      [
+        390.0,
+        32.0,
+        623.81,
+        278.78
+      ],
+      [
+        231.0,
+        441.0,
+        392.1,
+        633.94
+      ]
+    ],
+    "labels": [
+      "Packaged Food",
+      "Packaged Food",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_stanley_add/photo_2026-03-26 23.11.18.jpeg",
+    "source": "self_stanley_add",
+    "file_name": "photo_2026-03-26 23.11.18.jpeg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_add__photo_2026-03-26 23.11.18.jpeg.jpeg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        39.0,
+        146.0,
+        232.0,
+        454.0
+      ],
+      [
+        211.0,
+        100.0,
+        630.0,
+        506.0
+      ],
+      [
+        130.0,
+        463.0,
+        352.0,
+        570.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Packaged Food",
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_stanley_add/photo_2026-03-26 23.11.25.jpeg",
+    "source": "self_stanley_add",
+    "file_name": "photo_2026-03-26 23.11.25.jpeg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_add__photo_2026-03-26 23.11.25.jpeg.jpeg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        88.0,
+        226.0,
+        202.0,
+        561.0
+      ],
+      [
+        178.0,
+        69.0,
+        424.0,
+        203.0
+      ],
+      [
+        232.0,
+        192.0,
+        557.0,
+        550.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Canned Goods",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_girvin/IMG_9680_jpg.rf.Qj97J8ApkCCzzNS7qNeP.jpg",
+    "source": "self_girvin",
+    "file_name": "IMG_9680_jpg.rf.Qj97J8ApkCCzzNS7qNeP.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_girvin__IMG_9680_jpg.rf.Qj97J8ApkCCzzNS7qNeP.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        248.0,
+        59.0,
+        347.94,
+        284.22
+      ],
+      [
+        32.0,
+        327.0,
+        243.56,
+        568.6800000000001
+      ],
+      [
+        481.0,
+        314.0,
+        587.36,
+        540.75
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Packaged Food",
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1665_JPG.rf.hK32B9UVEFd9JpOSDAKv.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1665_JPG.rf.hK32B9UVEFd9JpOSDAKv.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1665_JPG.rf.hK32B9UVEFd9JpOSDAKv.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        224.0,
+        93.0,
+        464.9,
+        333.66999999999996
+      ]
+    ],
+    "labels": [
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211831.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211831.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211831.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        147.0,
+        294.0,
+        275.0,
+        602.0
+      ],
+      [
+        301.0,
+        88.0,
+        519.0,
+        410.0
+      ]
+    ],
+    "labels": [
+      "Canned Goods",
+      "Bottled Drink"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1561_JPG.rf.fmYldHrsDsztu8nAnwJS.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1561_JPG.rf.fmYldHrsDsztu8nAnwJS.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1561_JPG.rf.fmYldHrsDsztu8nAnwJS.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        211.0,
+        136.0,
+        469.43,
+        397.51
+      ]
+    ],
+    "labels": [
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_214122.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_214122.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_214122.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        10.0,
+        237.0,
+        321.0,
+        565.0
+      ]
+    ],
+    "labels": [
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        27.0,
+        181.0,
+        415.17,
+        380.72
+      ],
+      [
+        164.0,
+        196.0,
+        493.16,
+        577.36
+      ],
+      [
+        219.0,
+        236.0,
+        616.85,
+        634.8399999999999
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        20.0,
+        17.0,
+        187.72,
+        178.69
+      ],
+      [
+        55.0,
+        376.0,
+        429.18,
+        548.95
+      ],
+      [
+        245.0,
+        50.0,
+        567.3299999999999,
+        236.29
+      ],
+      [
+        388.0,
+        240.0,
+        576.01,
+        422.0
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211704.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211704.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211704.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        65.0,
+        100.0,
+        386.0,
+        317.0
+      ],
+      [
+        104.0,
+        275.0,
+        322.0,
+        563.0
+      ],
+      [
+        302.0,
+        213.0,
+        595.0,
+        433.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Packaged Food",
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1686_JPG.rf.0nvUB2XBRkopkxHGN3wp.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1686_JPG.rf.0nvUB2XBRkopkxHGN3wp.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1686_JPG.rf.0nvUB2XBRkopkxHGN3wp.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        87.0,
+        309.0,
+        289.96000000000004,
+        509.35
+      ],
+      [
+        167.0,
+        51.0,
+        574.36,
+        280.81
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1692_JPG.rf.o9SBBPaMWHyMCOLm4w3M.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1692_JPG.rf.o9SBBPaMWHyMCOLm4w3M.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1692_JPG.rf.o9SBBPaMWHyMCOLm4w3M.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        35.0,
+        212.0,
+        290.58000000000004,
+        468.92
+      ],
+      [
+        255.0,
+        348.0,
+        594.46,
+        531.38
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211810.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211810.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211810.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        149.0,
+        178.0,
+        445.0,
+        289.0
+      ],
+      [
+        202.0,
+        290.0,
+        473.0,
+        526.0
+      ]
+    ],
+    "labels": [
+      "Canned Goods",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        40.0,
+        400.0,
+        141.15,
+        502.73
+      ],
+      [
+        176.0,
+        442.0,
+        268.90999999999997,
+        538.33
+      ],
+      [
+        26.0,
+        256.0,
+        141.07999999999998,
+        363.46
+      ],
+      [
+        156.0,
+        313.0,
+        250.78,
+        411.11
+      ],
+      [
+        452.0,
+        0.0,
+        640.45,
+        213.82
+      ],
+      [
+        10.0,
+        55.0,
+        203.29,
+        255.95
+      ],
+      [
+        214.0,
+        95.0,
+        418.53999999999996,
+        313.62
+      ],
+      [
+        272.0,
+        231.0,
+        522.42,
+        521.74
+      ]
+    ],
+    "labels": [
+      "Canned Goods",
+      "Canned Goods",
+      "Fresh Produce",
+      "Fresh Produce",
+      "Bottled Drink",
+      "Packaged Food",
+      "Packaged Food",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        61.0,
+        87.0,
+        321.14,
+        454.18
+      ],
+      [
+        328.0,
+        88.0,
+        513.5699999999999,
+        275.33000000000004
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/photo_2026-03-15 09.59.20.jpeg",
+    "source": "self_stanley_orig",
+    "file_name": "photo_2026-03-15 09.59.20.jpeg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__photo_2026-03-15 09.59.20.jpeg.jpeg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        89.0,
+        70.0,
+        476.0,
+        195.0
+      ],
+      [
+        380.0,
+        212.0,
+        516.0,
+        530.0
+      ],
+      [
+        9.0,
+        316.0,
+        297.0,
+        435.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Canned Goods",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211741.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211741.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211741.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        172.0,
+        101.0,
+        538.0,
+        233.0
+      ],
+      [
+        188.0,
+        443.0,
+        496.0,
+        563.0
+      ],
+      [
+        200.0,
+        265.0,
+        477.0,
+        379.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Canned Goods",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_214220.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_214220.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_214220.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        411.0,
+        170.0,
+        546.0,
+        566.0
+      ],
+      [
+        114.0,
+        287.0,
+        405.0,
+        411.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_girvin/IMG_9685_1_jpg.rf.Npf3kUGAjHwDxXwnoYFY.jpg",
+    "source": "self_girvin",
+    "file_name": "IMG_9685_1_jpg.rf.Npf3kUGAjHwDxXwnoYFY.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_girvin__IMG_9685_1_jpg.rf.Npf3kUGAjHwDxXwnoYFY.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        258.0,
+        54.0,
+        349.83,
+        296.06
+      ],
+      [
+        79.0,
+        333.0,
+        165.20999999999998,
+        537.27
+      ],
+      [
+        437.0,
+        378.0,
+        597.86,
+        558.58
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Canned Goods",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1690_JPG.rf.MwMl3vjwxfBVwCGOECVz.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1690_JPG.rf.MwMl3vjwxfBVwCGOECVz.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1690_JPG.rf.MwMl3vjwxfBVwCGOECVz.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        54.0,
+        125.0,
+        320.25,
+        407.2
+      ],
+      [
+        399.0,
+        128.0,
+        549.11,
+        509.1
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211842.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211842.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211842.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        177.0,
+        136.0,
+        480.0,
+        484.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_213914.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_213914.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_213914.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        237.0,
+        362.0,
+        596.0,
+        575.0
+      ],
+      [
+        46.0,
+        296.0,
+        317.0,
+        567.0
+      ],
+      [
+        174.0,
+        180.0,
+        486.0,
+        321.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Packaged Food",
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1689_JPG.rf.XuSq5XYMTKPrgx22pv5V.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1689_JPG.rf.XuSq5XYMTKPrgx22pv5V.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1689_JPG.rf.XuSq5XYMTKPrgx22pv5V.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        355.0,
+        119.0,
+        492.90999999999997,
+        495.34
+      ]
+    ],
+    "labels": [
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1668_JPG.rf.UZuP0W5g9I8dJdyL15SZ.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1668_JPG.rf.UZuP0W5g9I8dJdyL15SZ.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1668_JPG.rf.UZuP0W5g9I8dJdyL15SZ.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        290.0,
+        1.0,
+        433.3,
+        156.74
+      ],
+      [
+        370.0,
+        243.0,
+        525.3199999999999,
+        395.45
+      ],
+      [
+        214.0,
+        181.0,
+        346.63,
+        313.53
+      ],
+      [
+        100.0,
+        95.0,
+        238.16,
+        231.71
+      ],
+      [
+        24.0,
+        280.0,
+        470.76,
+        618.65
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1666_JPG.rf.VwWwRd3G2QNNia6NonRm.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1666_JPG.rf.VwWwRd3G2QNNia6NonRm.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1666_JPG.rf.VwWwRd3G2QNNia6NonRm.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        64.0,
+        201.0,
+        236.08,
+        376.94
+      ],
+      [
+        148.0,
+        336.0,
+        336.53999999999996,
+        522.19
+      ],
+      [
+        269.0,
+        131.0,
+        471.19,
+        326.13
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/photo_2026-03-15 09.59.17.jpeg",
+    "source": "self_stanley_orig",
+    "file_name": "photo_2026-03-15 09.59.17.jpeg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__photo_2026-03-15 09.59.17.jpeg.jpeg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        215.0,
+        258.0,
+        428.0,
+        607.0
+      ],
+      [
+        46.0,
+        235.0,
+        280.0,
+        560.0
+      ],
+      [
+        160.0,
+        28.0,
+        548.0,
+        285.0
+      ]
+    ],
+    "labels": [
+      "Canned Goods",
+      "Packaged Food",
+      "Bottled Drink"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        61.0,
+        85.0,
+        546.06,
+        569.95
+      ]
+    ],
+    "labels": [
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_214017.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_214017.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_214017.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        87.0,
+        153.0,
+        385.0,
+        389.0
+      ],
+      [
+        261.0,
+        186.0,
+        575.0,
+        501.0
+      ]
+    ],
+    "labels": [
+      "Packaged Food",
+      "Bottled Drink"
+    ]
+  },
+  {
+    "image_id": "self_girvin/IMG_9688_jpg.rf.HwqcroAMTxEGtH9xlREs.jpg",
+    "source": "self_girvin",
+    "file_name": "IMG_9688_jpg.rf.HwqcroAMTxEGtH9xlREs.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_girvin__IMG_9688_jpg.rf.HwqcroAMTxEGtH9xlREs.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        106.0,
+        207.0,
+        214.05,
+        449.5
+      ],
+      [
+        452.0,
+        141.0,
+        576.15,
+        488.2
+      ]
+    ],
+    "labels": [
+      "Canned Goods",
+      "Bottled Drink"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1559_JPG.rf.FudFYFb9baVBGhztjIdW.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1559_JPG.rf.FudFYFb9baVBGhztjIdW.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1559_JPG.rf.FudFYFb9baVBGhztjIdW.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        171.0,
+        154.0,
+        471.39,
+        436.11
+      ]
+    ],
+    "labels": [
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1662_JPG.rf.qaVQlitav34ZoYSaVLIT.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1662_JPG.rf.qaVQlitav34ZoYSaVLIT.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1662_JPG.rf.qaVQlitav34ZoYSaVLIT.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        241.0,
+        234.0,
+        433.57,
+        424.59000000000003
+      ]
+    ],
+    "labels": [
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1514_JPG.rf.SJ7OM4wvv9jCKVvVpybx.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1514_JPG.rf.SJ7OM4wvv9jCKVvVpybx.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1514_JPG.rf.SJ7OM4wvv9jCKVvVpybx.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        174.0,
+        75.0,
+        490.8,
+        533.95
+      ]
+    ],
+    "labels": [
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        243.0,
+        135.0,
+        507.86,
+        357.09000000000003
+      ],
+      [
+        331.0,
+        390.0,
+        420.52,
+        476.4
+      ],
+      [
+        280.0,
+        495.0,
+        379.79,
+        601.7
+      ],
+      [
+        443.0,
+        483.0,
+        531.36,
+        572.8199999999999
+      ],
+      [
+        460.0,
+        367.0,
+        546.28,
+        452.61
+      ],
+      [
+        75.0,
+        18.0,
+        222.53,
+        199.02
+      ],
+      [
+        102.0,
+        229.0,
+        325.6,
+        432.11
+      ],
+      [
+        110.0,
+        469.0,
+        262.66999999999996,
+        625.27
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce",
+      "Canned Goods",
+      "Canned Goods",
+      "Bottled Drink",
+      "Packaged Food",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_girvin/IMG_9683_jpg.rf.xKP659u3ZgU6rJshzbVj.jpg",
+    "source": "self_girvin",
+    "file_name": "IMG_9683_jpg.rf.xKP659u3ZgU6rJshzbVj.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_girvin__IMG_9683_jpg.rf.xKP659u3ZgU6rJshzbVj.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        23.0,
+        192.0,
+        240.62,
+        446.26
+      ],
+      [
+        453.0,
+        187.0,
+        560.96,
+        429.53
+      ]
+    ],
+    "labels": [
+      "Packaged Food",
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211853.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211853.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211853.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        285.0,
+        31.0,
+        396.0,
+        311.0
+      ]
+    ],
+    "labels": [
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211801.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211801.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211801.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        183.0,
+        226.0,
+        479.0,
+        416.0
+      ]
+    ],
+    "labels": [
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_stanley_add/photo_2026-03-26 23.11.09.jpeg",
+    "source": "self_stanley_add",
+    "file_name": "photo_2026-03-26 23.11.09.jpeg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_add__photo_2026-03-26 23.11.09.jpeg.jpeg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        81.0,
+        1.0,
+        528.0,
+        418.0
+      ],
+      [
+        14.0,
+        347.0,
+        279.0,
+        640.0
+      ],
+      [
+        340.0,
+        446.0,
+        600.0,
+        571.0
+      ]
+    ],
+    "labels": [
+      "Packaged Food",
+      "Bottled Drink",
+      "Canned Goods"
+    ]
+  },
+  {
+    "image_id": "self_girvin/IMG_9695_jpg.rf.Da91ylYvyuWHoZiiCafu.jpg",
+    "source": "self_girvin",
+    "file_name": "IMG_9695_jpg.rf.Da91ylYvyuWHoZiiCafu.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_girvin__IMG_9695_jpg.rf.Da91ylYvyuWHoZiiCafu.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        123.0,
+        219.0,
+        239.99,
+        428.58000000000004
+      ],
+      [
+        403.0,
+        226.0,
+        572.25,
+        411.97
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1693_JPG.rf.CdGOz2kImMZqbBWYlwaz.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1693_JPG.rf.CdGOz2kImMZqbBWYlwaz.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1693_JPG.rf.CdGOz2kImMZqbBWYlwaz.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        75.0,
+        136.0,
+        160.04000000000002,
+        442.64
+      ],
+      [
+        165.0,
+        109.0,
+        396.85,
+        488.02
+      ],
+      [
+        370.0,
+        315.0,
+        565.94,
+        600.1
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  },
+  {
+    "image_id": "self_stanley_orig/20260309_211901.jpg",
+    "source": "self_stanley_orig",
+    "file_name": "20260309_211901.jpg",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_stanley_orig__20260309_211901.jpg.jpg",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        122.0,
+        397.0,
+        499.0,
+        520.0
+      ],
+      [
+        312.0,
+        79.0,
+        433.0,
+        388.0
+      ],
+      [
+        192.0,
+        102.0,
+        305.0,
+        370.0
+      ]
+    ],
+    "labels": [
+      "Bottled Drink",
+      "Canned Goods",
+      "Packaged Food"
+    ]
+  },
+  {
+    "image_id": "self_naveen/IMG_1688_JPG.rf.ZbEA9C00tkUgHe3F54LO.JPG",
+    "source": "self_naveen",
+    "file_name": "IMG_1688_JPG.rf.ZbEA9C00tkUgHe3F54LO.JPG",
+    "image_path": "/content/EE3703 RPC/runs/faster_rcnn/fasterrcnn_grocery_run/frcnn_dataset/images/test/self_naveen__IMG_1688_JPG.rf.ZbEA9C00tkUgHe3F54LO.JPG.JPG",
+    "width": 640,
+    "height": 640,
+    "background_only": false,
+    "boxes": [
+      [
+        101.0,
+        45.0,
+        535.4,
+        348.66
+      ],
+      [
+        93.0,
+        424.0,
+        484.32,
+        537.3199999999999
+      ]
+    ],
+    "labels": [
+      "Fresh Produce",
+      "Fresh Produce"
+    ]
+  }
+]

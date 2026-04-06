@@ -18,6 +18,13 @@ The detection task uses 4 foreground classes:
 - Packaged Food
 Background-only images are also included as negative examples during training.
 
+Dataset Composition
+The final curated dataset contains 500 images in total:
+- 200 Kaggle RPC images
+- 160 MVTec D2S images
+- 140 original self-captured images
+Among the 140 original images, 135 contain labeled grocery objects and 5 are background-only negative examples.
+
 Both notebooks were designed to be run in Google Colab with a T4 GPU. The saved notebooks are intended to be submitted with visible outputs, including training logs, plots, evaluation metrics, qualitative predictions, and exported artifacts.
 
 Project Structure

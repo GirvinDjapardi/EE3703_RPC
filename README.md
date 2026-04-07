@@ -33,7 +33,6 @@ Both models are built from PyTorch primitives (`nn.Conv2d`, `nn.BatchNorm2d`, et
 
 - **YOLO** — single-stage detector with backbone + FPN/PAN neck + multi-scale detection head
 - **Faster R-CNN** — two-stage detector with ResNet-50 backbone + FPN + RPN + ROI Align + detection head
-```
 
 ## Evaluation Metrics
 

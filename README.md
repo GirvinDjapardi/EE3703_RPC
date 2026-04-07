@@ -23,7 +23,7 @@ Detecting grocery items at a self-checkout counter using two object detection ar
 |--------|--------|-----------------|
 | Kaggle RPC (val subset) | 200 | Bottled Drink, Canned Goods, Packaged Food |
 | MVTec D2S (subset) | 160 | Fresh Produce + others |
-| Original (self-captured) | 140 (90 train & val / 50 test) | All 4 classes |
+| Original (self-captured) | 140 (90 train / 50 test) | All 4 classes |
 
 The 50 original test images are held out strictly for final evaluation and are never used during training or hyperparameter tuning.
 
@@ -31,10 +31,12 @@ The 50 original test images are held out strictly for final evaluation and are n
 
 Both models are built from PyTorch primitives (`nn.Conv2d`, `nn.BatchNorm2d`, etc.)
 
-- **YOLO** — single-stage detector with backbone + FPN/PAN neck + multi-scale detection head
-- **Faster R-CNN** — two-stage detector with ResNet-50 backbone + FPN + RPN + ROI Align + detection head
+- **YOLO** — single-stage detector based on pretrained yolo26s.pt, using a backbone, feature-pyramid style neck, and multi-scale detection heads.
+- **Faster R-CNN** — two-stage detector with a custom ResNet-50 backbone + FPN + RPN + ROI Align + detection head
 
 ## Evaluation Metrics
 
 - **Primary:** mAP (mean Average Precision) — target 0.85
 - **Secondary:** Precision, Recall, F1-score, Inference Speed (FPS)
+
+README.txt contains our results and more details

@@ -11,6 +11,8 @@ This project studies grocery item detection at a checkout surface using two obje
 - Faster R-CNN implemented manually in PyTorch in `FasterRCNN_Project.ipynb`
 - YOLO using `yolo26s.pt` with custom dataset preparation, split control, reporting, and artifact generation in `YOLO_Project.ipynb`
 
+Both notebooks were designed to be run in Google Colab with a T4 GPU. The saved notebooks are intended to be submitted with visible outputs, including training logs, plots, evaluation metrics, qualitative predictions, and exported artifacts.
+
 The detection task uses 4 foreground classes:
 - Bottled Drink
 - Canned Goods
@@ -18,14 +20,6 @@ The detection task uses 4 foreground classes:
 - Packaged Food
 Background-only images are also included as negative examples during training.
 
-Dataset Composition
-The final curated dataset contains 500 images in total:
-- 200 Kaggle RPC images
-- 160 MVTec D2S images
-- 140 original self-captured images
-Among the 140 original images, 135 contain labeled grocery objects and 5 are background-only negative examples.
-
-Both notebooks were designed to be run in Google Colab with a T4 GPU. The saved notebooks are intended to be submitted with visible outputs, including training logs, plots, evaluation metrics, qualitative predictions, and exported artifacts.
 
 Project Structure
 The key files and folders in this project are:
@@ -52,6 +46,7 @@ What The Supporting Scripts Do
   Selects about 200 Kaggle RPC validation images for the project subset, with an emphasis on class diversity.
 - `scripts/03_preprocess_kaggle_rpc.py`
   Resizes the selected Kaggle subset to `640 x 640` and writes a clean COCO-format annotation file for downstream use.
+
 
 Dependencies
 The two final notebooks and the scripts rely on the following main packages:
@@ -81,10 +76,13 @@ They also use standard library modules such as:
 - subprocess
 - collections
 
+
 Recommended Execution Environment
 - Google Colab
 - GPU runtime with NVIDIA T4
-- Project zip uploaded to Google Drive and extracted inside `/content/EE3703 RPC` (rename to EE3703 RPC)
+- Project zip uploaded to Google Drive and extracted inside `/content/EE3703 RPC`
+
+
 
 Dataset Notes
 - Final dataset volume used by the submitted notebooks is 500 images.
@@ -92,11 +90,20 @@ Dataset Notes
 - The test set is a fixed 50-image original self-image split.
 - 5 Background-only images from Naveen are also handled explicitly in the dataset construction.
 
+Dataset Composition
+The final curated dataset contains 500 images in total:
+- 200 Kaggle RPC images
+- 160 MVTec D2S images
+- 140 original self-captured images
+Among the 140 original images, 135 contain labeled grocery objects and 5 are background-only negative examples.
+
+
+
 Notebook Summary
 1. Faster R-CNN Notebook
 - File: `FasterRCNN_Project.ipynb`
 - Model type: custom two-stage detector implemented in PyTorch
-- Main components include a ResNet-style backbone, FPN, RPN, ROI Align, classification and box regression heads, manual training loop, threshold selection, custom evaluation, failure analysis, and benchmark reporting.
+- Main components include a custom ResNet-50 backbone, FPN, RPN, ROI Align, classification and box regression heads, manual training loop, threshold selection, custom evaluation, failure analysis, and benchmark reporting.
 
 2. YOLO Notebook
 - File: `YOLO_Project.ipynb`
@@ -107,7 +114,6 @@ Notebook Summary
 
 Final Findings
 The two final notebooks produced the following main results on the saved runs:
-
 
 Faster R-CNN
 - Run folder: `fasterrcnn_grocery_run`
@@ -137,34 +143,36 @@ Faster R-CNN
   - FPS: 21.37
 
 
-
 YOLO
 - Run folder: `yolo_project_run`
 - Model weights: `yolo26s.pt`
 - Epochs run: 100
-- Best epoch: 52
+- Best epoch: 68
 - Batch size: 16
 - Train images: 384
 - Validation images: 66
 - Test images: 50
-- Train original self images: 69
-- Validation original self images: 16
+- Train original self images: 85
+- Validation original self images: 0
 - Test original self images: 50
-- Report score threshold: 0.15
+- Report score threshold: 0.20
 
-- mAP@0.50: 0.9788
-- mAP@0.50:0.95: 0.7531
-- Precision: 0.9524
-- Recall: 0.9756
-- F1: 0.9639
+- mAP@0.50: 0.9906
+- mAP@0.50:0.95: 0.7498
+- Precision: 0.9098
+- Recall: 0.9837
+- F1: 0.9453
 - AP50 by class:
-  - Bottled Drink: 1.0000
-  - Canned Goods: 0.9692
-  - Fresh Produce: 0.9698
-  - Packaged Food: 0.9763
+  - Bottled Drink: 0.9987
+  - Canned Goods: 1.0000
+  - Fresh Produce: 0.9636
+  - Packaged Food: 1.0000
 - Inference benchmark:
-  - Mean latency: 18.42 ms
-  - FPS: 54.30
+  - Mean latency: 23.62 ms
+  - FPS: 42.35
+
+
+Both models used the exact same train, validation, and test image lists, so the final comparison reflects differences in model architecture rather than differences in data splitting.
 
 High-Level Conclusions
 - The Faster R-CNN result is consistent with the behaviour of a two-stage detector. The model first proposes candidate regions and then refines class and box predictions, which helps it achieve strong recall, good class-wise AP across all 4 categories, and solid localization quality for a fully custom implementation.

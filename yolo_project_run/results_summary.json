@@ -1,7 +1,7 @@
 {
   "run_name": "yolo_project_run",
-  "timestamp": "2026-04-06 15:02:55",
-  "best_epoch": 52,
+  "timestamp": "2026-04-07 14:05:14",
+  "best_epoch": 68,
   "best_weights": "/content/EE3703 RPC/runs/yolo/yolo_project_run/weights/best.pt",
   "device": "0",
   "model_weights": "yolo26s.pt",
@@ -11,34 +11,34 @@
   "train_images": 384,
   "val_images": 66,
   "test_images": 50,
-  "train_original_self_images": 69,
-  "val_original_self_images": 16,
+  "train_original_self_images": 85,
+  "val_original_self_images": 0,
   "test_original_self_images": 50,
-  "report_score_threshold": 0.15,
-  "map50": 0.9788133639909562,
-  "map50_95": 0.753096263199158,
-  "precision": 0.9523809523809523,
-  "recall": 0.975609756097561,
-  "f1": 0.963855421686747,
+  "report_score_threshold": 0.2,
+  "map50": 0.9905752415907791,
+  "map50_95": 0.7497529393715875,
+  "precision": 0.9097744360902256,
+  "recall": 0.983739837398374,
+  "f1": 0.9453125000000001,
   "ap50_by_class": {
-    "Bottled Drink": 1.0,
-    "Canned Goods": 0.9692028837575428,
-    "Fresh Produce": 0.9697542612516585,
-    "Packaged Food": 0.9762963109546234
+    "Bottled Drink": 0.9986772500964065,
+    "Canned Goods": 1.0,
+    "Fresh Produce": 0.9636237162667101,
+    "Packaged Food": 1.0
   },
   "benchmark": {
     "images": 50,
-    "mean_ms": 18.417217579990393,
-    "std_ms": 4.740922911770027,
-    "min_ms": 14.261585999975068,
-    "max_ms": 32.71224899981462,
-    "fps": 54.297018301312896
+    "mean_ms": 23.615163339986793,
+    "std_ms": 3.5304810721629605,
+    "min_ms": 19.35615900015364,
+    "max_ms": 32.29721200000313,
+    "fps": 42.34567365057062
   },
   "failure_counts": {
-    "false_positive": 5,
+    "false_positive": 12,
     "false_negative": 2,
     "wrong_class": 1
   },
-  "failure_images": 7,
+  "failure_images": 11,
   "showcase_images": 8
 }

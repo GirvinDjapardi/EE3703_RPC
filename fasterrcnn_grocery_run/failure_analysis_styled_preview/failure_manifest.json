@@ -1,0 +1,77 @@
+{
+  "model": "frcnn",
+  "run_dir": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run",
+  "weights": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/best.pt",
+  "notebook_path": "/Users/naveensuresh/Desktop/EE3703 RPC/FasterRCNN_Project.ipynb",
+  "report_threshold": 0.6,
+  "iou_threshold": 0.5,
+  "failure_images": 6,
+  "aggregate_error_counts": {
+    "false_positive": 5,
+    "false_negative": 4,
+    "wrong_class": 2
+  },
+  "records": [
+    {
+      "image_id": "self_naveen/IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG",
+      "file_name": "IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG",
+      "source": "self_naveen",
+      "n_failures": 3,
+      "false_positive": 2,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/failure_analysis_styled_preview/self_naveen_IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.16.jpeg",
+      "file_name": "photo_2026-03-26 23.11.16.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/failure_analysis_styled_preview/self_stanley_add_photo_2026-03-26 23.11.16.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.18.jpeg",
+      "file_name": "photo_2026-03-26 23.11.18.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/failure_analysis_styled_preview/self_stanley_add_photo_2026-03-26 23.11.18.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.22.jpeg",
+      "file_name": "photo_2026-03-26 23.11.22.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 2,
+      "false_positive": 0,
+      "false_negative": 1,
+      "wrong_class": 1,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/failure_analysis_styled_preview/self_stanley_add_photo_2026-03-26 23.11.22.jpeg.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG",
+      "file_name": "IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/failure_analysis_styled_preview/self_naveen_IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.25.jpeg",
+      "file_name": "photo_2026-03-26 23.11.25.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/failure_analysis_styled_preview/self_stanley_add_photo_2026-03-26 23.11.25.jpeg.png"
+    }
+  ],
+  "overview_path": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/failure_analysis_styled_preview/failure_overview.png"
+}

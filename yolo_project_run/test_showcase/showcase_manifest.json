@@ -1,0 +1,74 @@
+{
+  "model": "yolo",
+  "run_dir": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run",
+  "weights": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/weights/yolo best.pt",
+  "report_threshold": 0.2,
+  "showcase_images": 8,
+  "records": [
+    {
+      "image_id": "self_girvin/IMG_9693_jpg.rf.2Mix6mgh0qDHI5QZw4rI.jpg",
+      "file_name": "IMG_9693_jpg.rf.2Mix6mgh0qDHI5QZw4rI.jpg",
+      "source": "self_girvin",
+      "n_gt": 2,
+      "n_predictions": 2,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/self_girvin_IMG_9693_jpg.rf.2Mix6mgh0qDHI5QZw4rI.jpg.png"
+    },
+    {
+      "image_id": "self_girvin/IMG_9700_jpg.rf.MojuwRZH3wmrMpBw1Df6.jpg",
+      "file_name": "IMG_9700_jpg.rf.MojuwRZH3wmrMpBw1Df6.jpg",
+      "source": "self_girvin",
+      "n_gt": 3,
+      "n_predictions": 3,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/self_girvin_IMG_9700_jpg.rf.MojuwRZH3wmrMpBw1Df6.jpg.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG",
+      "file_name": "IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG",
+      "source": "self_naveen",
+      "n_gt": 1,
+      "n_predictions": 1,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/self_naveen_IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG",
+      "file_name": "IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG",
+      "source": "self_naveen",
+      "n_gt": 4,
+      "n_predictions": 4,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/self_naveen_IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.16.jpeg",
+      "file_name": "photo_2026-03-26 23.11.16.jpeg",
+      "source": "self_stanley_add",
+      "n_gt": 2,
+      "n_predictions": 2,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/self_stanley_add_photo_2026-03-26 23.11.16.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.18.jpeg",
+      "file_name": "photo_2026-03-26 23.11.18.jpeg",
+      "source": "self_stanley_add",
+      "n_gt": 3,
+      "n_predictions": 3,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/self_stanley_add_photo_2026-03-26 23.11.18.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_orig/20260309_211748.jpg",
+      "file_name": "20260309_211748.jpg",
+      "source": "self_stanley_orig",
+      "n_gt": 2,
+      "n_predictions": 2,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/self_stanley_orig_20260309_211748.jpg.png"
+    },
+    {
+      "image_id": "self_stanley_orig/20260309_214032.jpg",
+      "file_name": "20260309_214032.jpg",
+      "source": "self_stanley_orig",
+      "n_gt": 1,
+      "n_predictions": 1,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/self_stanley_orig_20260309_214032.jpg.png"
+    }
+  ],
+  "overview_path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/test_showcase/showcase_overview.png"
+}

@@ -1,0 +1,267 @@
+{
+  "model": "frcnn",
+  "run_dir": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run",
+  "weights": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/best.pt",
+  "notebook_path": "/Users/naveensuresh/Desktop/EE3703 RPC/FasterRCNN_Project.ipynb",
+  "report_threshold": 0.6,
+  "iou_threshold": 0.5,
+  "failure_images": 25,
+  "aggregate_error_counts": {
+    "false_positive": 29,
+    "false_negative": 8,
+    "wrong_class": 9
+  },
+  "records": [
+    {
+      "image_id": "self_stanley_orig/20260309_211741.jpg",
+      "file_name": "20260309_211741.jpg",
+      "source": "self_stanley_orig",
+      "n_failures": 4,
+      "false_positive": 3,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_orig_20260309_211741.jpg.png"
+    },
+    {
+      "image_id": "self_stanley_orig/photo_2026-03-15 09.59.20.jpeg",
+      "file_name": "photo_2026-03-15 09.59.20.jpeg",
+      "source": "self_stanley_orig",
+      "n_failures": 4,
+      "false_positive": 3,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_orig_photo_2026-03-15 09.59.20.jpeg.png"
+    },
+    {
+      "image_id": "self_girvin/IMG_9685_1_jpg.rf.Npf3kUGAjHwDxXwnoYFY.jpg",
+      "file_name": "IMG_9685_1_jpg.rf.Npf3kUGAjHwDxXwnoYFY.jpg",
+      "source": "self_girvin",
+      "n_failures": 3,
+      "false_positive": 2,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_girvin_IMG_9685_1_jpg.rf.Npf3kUGAjHwDxXwnoYFY.jpg.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1514_JPG.rf.SJ7OM4wvv9jCKVvVpybx.JPG",
+      "file_name": "IMG_1514_JPG.rf.SJ7OM4wvv9jCKVvVpybx.JPG",
+      "source": "self_naveen",
+      "n_failures": 3,
+      "false_positive": 3,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1514_JPG.rf.SJ7OM4wvv9jCKVvVpybx.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG",
+      "file_name": "IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG",
+      "source": "self_naveen",
+      "n_failures": 3,
+      "false_positive": 2,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1535_JPG.rf.A5CCjtsoV5J5vA9pWYBJ.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG",
+      "file_name": "IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG",
+      "source": "self_naveen",
+      "n_failures": 3,
+      "false_positive": 2,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG.png"
+    },
+    {
+      "image_id": "self_stanley_orig/20260309_213914.jpg",
+      "file_name": "20260309_213914.jpg",
+      "source": "self_stanley_orig",
+      "n_failures": 3,
+      "false_positive": 2,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_orig_20260309_213914.jpg.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG",
+      "file_name": "IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG",
+      "source": "self_naveen",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.16.jpeg",
+      "file_name": "photo_2026-03-26 23.11.16.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_add_photo_2026-03-26 23.11.16.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.18.jpeg",
+      "file_name": "photo_2026-03-26 23.11.18.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_add_photo_2026-03-26 23.11.18.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.22.jpeg",
+      "file_name": "photo_2026-03-26 23.11.22.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 2,
+      "false_positive": 0,
+      "false_negative": 1,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_add_photo_2026-03-26 23.11.22.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_orig/photo_2026-03-15 09.59.17.jpeg",
+      "file_name": "photo_2026-03-15 09.59.17.jpeg",
+      "source": "self_stanley_orig",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_orig_photo_2026-03-15 09.59.17.jpeg.png"
+    },
+    {
+      "image_id": "self_girvin/IMG_9695_jpg.rf.Da91ylYvyuWHoZiiCafu.jpg",
+      "file_name": "IMG_9695_jpg.rf.Da91ylYvyuWHoZiiCafu.jpg",
+      "source": "self_girvin",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_girvin_IMG_9695_jpg.rf.Da91ylYvyuWHoZiiCafu.jpg.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG",
+      "file_name": "IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 0,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG",
+      "file_name": "IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 0,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG",
+      "file_name": "IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1686_JPG.rf.0nvUB2XBRkopkxHGN3wp.JPG",
+      "file_name": "IMG_1686_JPG.rf.0nvUB2XBRkopkxHGN3wp.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1686_JPG.rf.0nvUB2XBRkopkxHGN3wp.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG",
+      "file_name": "IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1688_JPG.rf.ZbEA9C00tkUgHe3F54LO.JPG",
+      "file_name": "IMG_1688_JPG.rf.ZbEA9C00tkUgHe3F54LO.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1688_JPG.rf.ZbEA9C00tkUgHe3F54LO.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG",
+      "file_name": "IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_naveen_IMG_1694_JPG.rf.xZUO8K8gBPI5BKL7UQxP.JPG.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.09.jpeg",
+      "file_name": "photo_2026-03-26 23.11.09.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_add_photo_2026-03-26 23.11.09.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.25.jpeg",
+      "file_name": "photo_2026-03-26 23.11.25.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_add_photo_2026-03-26 23.11.25.jpeg.png"
+    },
+    {
+      "image_id": "self_stanley_orig/20260309_211704.jpg",
+      "file_name": "20260309_211704.jpg",
+      "source": "self_stanley_orig",
+      "n_failures": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_orig_20260309_211704.jpg.png"
+    },
+    {
+      "image_id": "self_stanley_orig/20260309_211810.jpg",
+      "file_name": "20260309_211810.jpg",
+      "source": "self_stanley_orig",
+      "n_failures": 1,
+      "false_positive": 0,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_orig_20260309_211810.jpg.png"
+    },
+    {
+      "image_id": "self_stanley_orig/20260309_214122.jpg",
+      "file_name": "20260309_214122.jpg",
+      "source": "self_stanley_orig",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "fasterrcnn_grocery_run/failure_analysis/self_stanley_orig_20260309_214122.jpg.png"
+    }
+  ],
+  "overview_path": "/Users/naveensuresh/Desktop/EE3703 RPC/fasterrcnn_grocery_run/failure_analysis/failure_overview.png"
+}

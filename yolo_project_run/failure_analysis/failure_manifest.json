@@ -1,0 +1,126 @@
+{
+  "model": "yolo",
+  "run_dir": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run",
+  "weights": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/weights/yolo best.pt",
+  "report_threshold": 0.2,
+  "iou_threshold": 0.5,
+  "failure_images": 11,
+  "aggregate_error_counts": {
+    "false_positive": 12,
+    "false_negative": 2,
+    "wrong_class": 1
+  },
+  "records": [
+    {
+      "image_id": "self_naveen/IMG_1668_JPG.rf.UZuP0W5g9I8dJdyL15SZ.JPG",
+      "file_name": "IMG_1668_JPG.rf.UZuP0W5g9I8dJdyL15SZ.JPG",
+      "source": "self_naveen",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_naveen_IMG_1668_JPG.rf.UZuP0W5g9I8dJdyL15SZ.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG",
+      "file_name": "IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG",
+      "source": "self_naveen",
+      "n_failures": 2,
+      "false_positive": 2,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_naveen_IMG_1673_JPG.rf.U1xP6X6KOdwodEInpDfV.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG",
+      "file_name": "IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG",
+      "source": "self_naveen",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 1,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_naveen_IMG_1687_JPG.rf.UUNihQdlLAq2CeKJSrw0.JPG.png"
+    },
+    {
+      "image_id": "self_stanley_add/photo_2026-03-26 23.11.22.jpeg",
+      "file_name": "photo_2026-03-26 23.11.22.jpeg",
+      "source": "self_stanley_add",
+      "n_failures": 2,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 1,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_stanley_add_photo_2026-03-26 23.11.22.jpeg.png"
+    },
+    {
+      "image_id": "self_girvin/IMG_9701_jpg.rf.eLhSyr9TWVX4AjGlUvcY.jpg",
+      "file_name": "IMG_9701_jpg.rf.eLhSyr9TWVX4AjGlUvcY.jpg",
+      "source": "self_girvin",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_girvin_IMG_9701_jpg.rf.eLhSyr9TWVX4AjGlUvcY.jpg.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG",
+      "file_name": "IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_naveen_IMG_1536_JPG.rf.bo9CR7xqK7y7jrS7AfEi.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG",
+      "file_name": "IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_naveen_IMG_1674_JPG.rf.Xb3OSBAvMjgeyyoBppmj.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG",
+      "file_name": "IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_naveen_IMG_1676_JPG.rf.dV4VUJTf3jWDjSPKVoFM.JPG.png"
+    },
+    {
+      "image_id": "self_naveen/IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG",
+      "file_name": "IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG",
+      "source": "self_naveen",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_naveen_IMG_1685_JPG.rf.6u2hQCDQ5toNg2CL6qAp.JPG.png"
+    },
+    {
+      "image_id": "self_stanley_orig/20260309_211741.jpg",
+      "file_name": "20260309_211741.jpg",
+      "source": "self_stanley_orig",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_stanley_orig_20260309_211741.jpg.png"
+    },
+    {
+      "image_id": "self_stanley_orig/20260309_211801.jpg",
+      "file_name": "20260309_211801.jpg",
+      "source": "self_stanley_orig",
+      "n_failures": 1,
+      "false_positive": 1,
+      "false_negative": 0,
+      "wrong_class": 0,
+      "path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/self_stanley_orig_20260309_211801.jpg.png"
+    }
+  ],
+  "overview_path": "/Users/naveensuresh/Desktop/EE3703 RPC/yolo_project_run/failure_analysis/failure_overview.png"
+}

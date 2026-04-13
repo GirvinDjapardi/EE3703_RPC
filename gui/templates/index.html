@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Retail Checkout Detector — EE3703 Group 4</title>
+
+<!-- Fonts: DM Sans (body) + Sora (headings) via Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ── Reset & base ─────────────────────────────────────────── */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg:          #F7F6F3;
+  --surface:     #FFFFFF;
+  --border:      #D6D3CD;
+  --text:        #1C1917;
+  --text-muted:  #78716C;
+  --accent:      #0E7490;
+  --accent-hover:#0C6478;
+  --detect:      #15803D;
+  --detect-hover:#166534;
+  --amber:       #D97706;
+  --red:         #DC2626;
+  --teal-light:  #ECFDF5;
+  --header-bg:   #1A1A2E;
+  --radius:      10px;
+  --shadow:      0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-lg:   0 4px 12px rgba(0,0,0,0.08);
+}
+
+html { font-size: 15px; }
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4 { font-family: 'Sora', system-ui, sans-serif; }
+
+/* ── Header ───────────────────────────────────────────────── */
+.header {
+  background: var(--header-bg);
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header-icon {
+  width: 36px;
+  height: 36px;
+  background: var(--accent);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.header h1 {
+  color: #F1F0ED;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.header-right {
+  color: #A8A29E;
+  font-size: 0.8rem;
+}
+
+/* ── Main content ─────────────────────────────────────────── */
+.main {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 2rem;
+}
+
+/* ── Controls card ────────────────────────────────────────── */
+.controls {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.upload-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.upload-btn:hover { background: var(--accent-hover); }
+.upload-btn svg { width: 18px; height: 18px; fill: currentColor; }
+
+.file-input { display: none; }
+
+.file-name {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.divider {
+  width: 1px;
+  height: 32px;
+  background: var(--border);
+}
+
+/* Model toggle */
+.model-group { display: flex; align-items: center; gap: 0.5rem; }
+.model-group label { font-size: 0.85rem; font-weight: 500; color: var(--text-muted); }
+
+.model-toggle {
+  display: flex;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.model-option {
+  padding: 0.5rem 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.15s;
+  position: relative;
+}
+.model-option.active {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.model-option .status-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.status-dot.ready { background: var(--detect); }
+.status-dot.mock  { background: var(--amber); }
+
+/* Confidence slider */
+.conf-group { display: flex; align-items: center; gap: 0.5rem; }
+.conf-group label { font-size: 0.85rem; font-weight: 500; color: var(--text-muted); white-space: nowrap; }
+
+.conf-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 120px;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  outline: none;
+}
+.conf-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.conf-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  min-width: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.conf-edit {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  width: 3.2rem;
+  text-align: center;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  padding: 0.1rem 0.2rem;
+  outline: none;
+}
+
+/* Detect button */
+.detect-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  background: var(--detect);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+.detect-btn:hover { background: var(--detect-hover); }
+.detect-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.detect-btn svg { width: 18px; height: 18px; fill: currentColor; }
+
+.detect-btn.loading {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+/* ── Image panels ─────────────────────────────────────────── */
+.panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.panel-header {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.mock-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: #FEF3C7;
+  color: var(--amber);
+  display: none;
+}
+.mock-badge.visible { display: inline-block; }
+
+.panel-body {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px;
+  background: #FAFAF8;
+}
+
+.panel-body img {
+  max-width: 100%;
+  max-height: 520px;
+  border-radius: 4px;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.placeholder svg {
+  display: block;
+  width: 48px;
+  height: 48px;
+  fill: #57534E;
+  margin-bottom: 0.75rem;
+}
+
+.placeholder p {
+  font-size: 0.9rem;
+}
+
+/* ── Summary table ────────────────────────────────────────── */
+.summary {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.summary-header {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summary-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.summary-count {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.summary-body {
+  padding: 0.5rem 1rem 1rem;
+}
+
+.summary-empty {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.det-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.det-table th {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.det-table td {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid #F3F2EF;
+}
+
+.det-table tr:last-child td { border-bottom: none; }
+
+.class-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.conf-bar-cell { width: 180px; }
+
+.conf-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.conf-bar-track {
+  flex: 1;
+  height: 6px;
+  background: #F3F2EF;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.conf-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.conf-bar-value {
+  font-weight: 600;
+  font-size: 0.82rem;
+  min-width: 3rem;
+  text-align: right;
+}
+
+/* ── Footer ───────────────────────────────────────────────── */
+.footer {
+  margin-top: auto;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+
+.footer span { margin: 0 0.3rem; }
+
+/* ── Spinner ──────────────────────────────────────────────── */
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.spinner {
+  display: none;
+  width: 20px;
+  height: 20px;
+  border: 2.5px solid rgba(255,255,255,0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+.detect-btn.loading .spinner { display: inline-block; }
+.detect-btn.loading .btn-label { display: none; }
+</style>
+</head>
+
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────── -->
+<header class="header">
+  <div class="header-left">
+    <div class="header-icon">
+      <svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM7.16 6.26l-.86-1.76H2v2h2l3.6 7.59-1.35 2.44A2 2 0 0 0 8 19h12v-2H8l1.1-2h7.45a2 2 0 0 0 1.75-1.03l3.58-6.47A1 1 0 0 0 21 6H6.21z"/></svg>
+    </div>
+    <h1>Retail Checkout Detector</h1>
+  </div>
+  <div class="header-right">EE3703 Group 4 &mdash; Girvin, Stanley, Naveen</div>
+</header>
+
+<!-- ── Main ────────────────────────────────────────────────── -->
+<main class="main">
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="upload-btn" id="uploadBtn" onclick="document.getElementById('fileInput').click()">
+      <svg viewBox="0 0 24 24"><path d="M9 16h6v-6h4l-7-7-7 7h4v6zm-4 2h14v2H5v-2z"/></svg>
+      Upload Image
+    </button>
+    <input type="file" id="fileInput" class="file-input" accept="image/*">
+    <span class="file-name" id="fileName"></span>
+
+    <div class="divider"></div>
+
+    <div class="model-group">
+      <label>Model</label>
+      <div class="model-toggle" id="modelToggle">
+        <button class="model-option active" data-model="YOLO">
+          YOLO
+          <span class="status-dot {{ 'ready' if yolo_ready else 'mock' }}"></span>
+        </button>
+        <button class="model-option" data-model="Faster R-CNN">
+          Faster R-CNN
+          <span class="status-dot {{ 'ready' if rcnn_ready else 'mock' }}"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="conf-group">
+      <label>Confidence</label>
+      <input type="range" class="conf-slider" id="confSlider" min="80" max="100" value="80">
+      <span class="conf-value" id="confValue">0.80</span>
+      <input type="text" class="conf-edit" id="confEdit" style="display:none">
+    </div>
+
+    <button class="detect-btn" id="detectBtn" disabled>
+      <span class="btn-label">Detect</span>
+      <div class="spinner"></div>
+    </button>
+  </div>
+
+  <!-- Image panels -->
+  <div class="panels">
+    <!-- Left: uploaded image -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Uploaded Image</span>
+      </div>
+      <div class="panel-body" id="panelLeft">
+        <div class="placeholder" id="placeholderLeft">
+          <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+          <p>Upload an image to begin</p>
+        </div>
+        <img id="imgLeft" style="display:none" alt="Uploaded image">
+      </div>
+    </div>
+
+    <!-- Right: detection results -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Detection Results</span>
+        <span class="mock-badge" id="mockBadge">Mock Mode</span>
+      </div>
+      <div class="panel-body" id="panelRight">
+        <div class="placeholder" id="placeholderRight">
+          <svg viewBox="0 0 24 24"><path d="M3 5h2V3H3c-1.1 0-2 .9-2 2v2h2V5zm0 8H1v2h2v-2zm4 8h2v-2H7v2zM3 9H1v2h2V9zm10-6h-2v2h2V3zm6 0v2h2V3c0-1.1-.9-2-2-2h-2v2h2zM5 21v-2H3c0 1.1.9 2 2 2zm-2-4h2v-2H3v2zM9 3H7v2h2V3zm2 18h2v-2h-2v2zm8-8h2v-2h-2v2zm0 8c1.1 0 2-.9 2-2h-2v2zm0-12h2V7h-2v2zm0 8h2v-2h-2v2zm-4 4h2v-2h-2v2zm0-16h2V3h-2v2z"/></svg>
+          <p>Detection output will appear here</p>
+        </div>
+        <img id="imgRight" style="display:none" alt="Detection results">
+      </div>
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <div class="summary">
+    <div class="summary-header">
+      <span class="summary-title">Detection Summary</span>
+      <span class="summary-count" id="summaryCount"></span>
+    </div>
+    <div id="summaryBody">
+      <div class="summary-empty" id="summaryEmpty">
+        Run detection to see results
+      </div>
+      <div class="summary-body" id="summaryTable" style="display:none"></div>
+    </div>
+  </div>
+
+</main>
+
+<!-- ── Footer ──────────────────────────────────────────────── -->
+<footer class="footer">
+  Bottled Drink<span>&middot;</span>Canned Goods<span>&middot;</span>Packaged Food<span>&middot;</span>Fresh Produce
+  &nbsp;&nbsp;|&nbsp;&nbsp; Input: 640 &times; 640
+</footer>
+
+<!-- ── JavaScript ──────────────────────────────────────────── -->
+<script>
+(function() {
+  // ── DOM refs ──────────────────────────────────────────────
+  const fileInput   = document.getElementById('fileInput');
+  const fileName    = document.getElementById('fileName');
+  const detectBtn   = document.getElementById('detectBtn');
+  const confSlider  = document.getElementById('confSlider');
+  const confValue   = document.getElementById('confValue');
+  const confEdit    = document.getElementById('confEdit');
+  const imgLeft     = document.getElementById('imgLeft');
+  const imgRight    = document.getElementById('imgRight');
+  const placeholderL = document.getElementById('placeholderLeft');
+  const placeholderR = document.getElementById('placeholderRight');
+  const mockBadge   = document.getElementById('mockBadge');
+  const summaryCount = document.getElementById('summaryCount');
+  const summaryEmpty = document.getElementById('summaryEmpty');
+  const summaryTable = document.getElementById('summaryTable');
+
+  let selectedModel = 'YOLO';
+  let currentFile   = null;
+
+  // Class colours (match inference.py)
+  const CLASS_COLOURS = {
+    0: '#0E7490',  // Bottled Drink
+    1: '#DC5032',  // Canned Goods
+    2: '#F59E0B',  // Fresh Produce
+    3: '#228B22',  // Packaged Food
+  };
+
+  // ── Model toggle ──────────────────────────────────────────
+  document.querySelectorAll('.model-option').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.model-option').forEach(function(b) {
+        b.classList.remove('active');
+      });
+      btn.classList.add('active');
+      selectedModel = btn.dataset.model;
+    });
+  });
+
+  // ── Confidence slider ─────────────────────────────────────
+  confSlider.addEventListener('input', function() {
+    confValue.textContent = (this.value / 100).toFixed(2);
+  });
+
+  // ── Double-click confidence value to type a custom threshold ──
+  function applyConfEdit() {
+    var raw = parseFloat(confEdit.value);
+    if (!isNaN(raw) && raw >= 0 && raw <= 1) {
+      confValue.textContent = raw.toFixed(2);
+      var sliderVal = Math.round(raw * 100);
+      confSlider.value = Math.max(parseInt(confSlider.min), Math.min(parseInt(confSlider.max), sliderVal));
+    }
+    confEdit.style.display = 'none';
+    confValue.style.display = '';
+  }
+
+  confValue.addEventListener('dblclick', function() {
+    confEdit.value = confValue.textContent;
+    confValue.style.display = 'none';
+    confEdit.style.display = '';
+    confEdit.focus();
+    confEdit.select();
+  });
+
+  confEdit.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') { e.preventDefault(); applyConfEdit(); }
+    if (e.key === 'Escape') { confEdit.style.display = 'none'; confValue.style.display = ''; }
+  });
+
+  confEdit.addEventListener('blur', applyConfEdit);
+
+  // ── File upload ───────────────────────────────────────────
+  fileInput.addEventListener('change', function() {
+    if (!this.files || !this.files[0]) return;
+    currentFile = this.files[0];
+    fileName.textContent = currentFile.name;
+    detectBtn.disabled = false;
+
+    // Preview
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      imgLeft.src = e.target.result;
+      imgLeft.style.display = 'block';
+      placeholderL.style.display = 'none';
+    };
+    reader.readAsDataURL(currentFile);
+
+    // Clear previous results
+    imgRight.style.display = 'none';
+    placeholderR.style.display = 'flex';
+    mockBadge.classList.remove('visible');
+    summaryCount.textContent = '';
+    summaryEmpty.style.display = 'block';
+    summaryTable.style.display = 'none';
+  });
+
+  // ── Detect ────────────────────────────────────────────────
+  detectBtn.addEventListener('click', function() {
+    if (!currentFile) return;
+
+    // Loading state
+    detectBtn.classList.add('loading');
+    detectBtn.disabled = true;
+
+    var formData = new FormData();
+    formData.append('image', currentFile);
+    formData.append('model', selectedModel);
+    formData.append('conf_threshold', (confSlider.value / 100).toFixed(2));
+
+    fetch('/detect', { method: 'POST', body: formData })
+      .then(function(res) { return res.json(); })
+      .then(function(data) {
+        // Show annotated image
+        imgRight.src = data.image;
+        imgRight.style.display = 'block';
+        placeholderR.style.display = 'none';
+
+        // Mock badge
+        if (data.is_mock) {
+          mockBadge.classList.add('visible');
+        } else {
+          mockBadge.classList.remove('visible');
+        }
+
+        // Summary count
+        summaryCount.textContent = data.count + ' object' + (data.count !== 1 ? 's' : '') + ' detected';
+
+        // Summary table
+        if (data.detections.length === 0) {
+          summaryEmpty.textContent = 'No objects detected above the confidence threshold.';
+          summaryEmpty.style.display = 'block';
+          summaryTable.style.display = 'none';
+        } else {
+          summaryEmpty.style.display = 'none';
+          summaryTable.style.display = 'block';
+          renderTable(data.detections);
+        }
+      })
+      .catch(function(err) {
+        console.error('Detection failed:', err);
+        summaryEmpty.textContent = 'Detection failed. Check the console for details.';
+        summaryEmpty.style.display = 'block';
+        summaryTable.style.display = 'none';
+      })
+      .finally(function() {
+        detectBtn.classList.remove('loading');
+        detectBtn.disabled = false;
+      });
+  });
+
+  // ── Render summary table ──────────────────────────────────
+  function renderTable(detections) {
+    var html = '<table class="det-table">';
+    html += '<thead><tr>';
+    html += '<th>#</th><th>Class</th><th class="conf-bar-cell">Confidence</th>';
+    html += '</tr></thead><tbody>';
+
+    detections.forEach(function(d, i) {
+      var colour = CLASS_COLOURS[d.class_id] || '#999';
+      var pct = (d.confidence * 100).toFixed(1);
+      html += '<tr>';
+      html += '<td>' + (i + 1) + '</td>';
+      html += '<td><span class="class-dot" style="background:' + colour + '"></span>' + d.label + '</td>';
+      html += '<td class="conf-bar-cell"><div class="conf-bar-wrap">';
+      html += '<div class="conf-bar-track"><div class="conf-bar-fill" style="width:' + pct + '%;background:' + colour + '"></div></div>';
+      html += '<span class="conf-bar-value">' + pct + '%</span>';
+      html += '</div></td>';
+      html += '</tr>';
+    });
+
+    html += '</tbody></table>';
+    summaryTable.innerHTML = html;
+  }
+
+})();
+</script>
+
+</body>
+</html>
